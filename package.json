@@ -1,0 +1,15 @@
+{
+  "name": "articleverify-workspace",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix article-verifier run start",
+    "dev": "npm --prefix article-verifier run dev",
+    "server": "npm --prefix article-verifier run server",
+    "test": "npm --prefix article-verifier run test",
+    "compile:contract": "cd article-verifier && npm run compile:contract",
+    "deploy:sepolia": "cd article-verifier && npm run deploy:sepolia",
+    "build": "npm --prefix article-verifier run build",
+    "lint": "npm --prefix article-verifier run lint",
+    "preview": "npm --prefix article-verifier run preview"
+  }
+}
